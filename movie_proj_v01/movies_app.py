@@ -16,12 +16,10 @@ def input_movie_details():
 mdb = MoviesDB()
 
 """
-
 DDLJ = Movie("DDLJ", "Sharukh", 1994, "Drama")
 singham = Movie("Singham", "Rohit", 2012, "Drama, Action")
 
-
-mdb.add_new_movie(gajni)
+mdb.add_new_movie(DDLJ)
 mdb.add_new_movie(singham)
 """
 user_movie = input_movie_details()
